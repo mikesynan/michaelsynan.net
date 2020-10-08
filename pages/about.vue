@@ -1,10 +1,13 @@
 <template>
-  <div class="container">
+  <div class="container clear-nav  mx-auto px-4">
     <div>
 
       <h1 class="title">
-      about page
+      About Michael
       </h1>
+      <div class="">
+        Web devloper and linux enthusiast.
+      </div>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
@@ -12,7 +15,7 @@
           rel="noopener noreferrer"
           class="button--green"
         >
-          Documentation
+          Contact Me
         </a>
         <a
           href="https://github.com/nuxt/nuxt.js"
@@ -20,7 +23,7 @@
           rel="noopener noreferrer"
           class="button--grey"
         >
-          GitHub
+          Website Design 
         </a>
       </div>
     </div>
@@ -30,15 +33,9 @@
 <script>
 export default {
 
-
 }
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
 
 </style>

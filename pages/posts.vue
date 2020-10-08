@@ -1,11 +1,11 @@
 <template>
-  <div style="padding-top: 200px; background-color: pink;" class="container mx-auto">
-    <h1>Blog Posts</h1>
-    <ul>
+  <div style="background-color: pink;" class="text-left container mx-auto clear-nav">
+
+    <ul class="text-left">
       <li v-for="article of articles" :key="article.slug">
         <NuxtLink :to="{ name: 'blog-slug', params: { slug: article.slug } }">
-        
-          <div>
+
+          <div class="px-2 py-2">
             <h2>{{ article.title }}</h2>
             <p>{{ article.description }}</p>
           </div>

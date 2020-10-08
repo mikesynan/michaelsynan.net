@@ -1,7 +1,7 @@
 <template>
-  <div class="container mx-auto text-left">
+  <div class="container mx-auto text-start clear-nav">
   <article>
-    <h1 style="padding-top: 100px;">{{ article.title }}</h1>
+    <h1 class="py-2">{{ article.title }}</h1>
 
      <p>{{ article.description }}</p>
      <img :src="article.img" style="min-height: 100px; border: 1px solid red;">
@@ -12,7 +12,6 @@
   </article>
 </div>
 </template>
-
 
 <script>
   export default {
@@ -47,15 +46,5 @@
 </script>
 
 <style>
-  .nuxt-content h1 {
-    font-weight: bold;
-    font-size: 28px;
-  }
-  .nuxt-content h3 {
-    font-weight: bold;
-    font-size: 22px;
-  }
-  .nuxt-content p {
-    margin-bottom: 20px;
-  }
+
 </style>

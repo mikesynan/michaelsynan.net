@@ -1,14 +1,72 @@
 <template>
-  <div class="container">
+  <div class="container clear-nav  mx-auto px-4">
     <div>
 
 
 
       <div class="flex mb-4">
-        <div class="w-1/2 bg-gray-400 h-12">
-<Logo />
-        </div>
-        <div class="w-1/2 bg-gray-500 h-12">
+        <div class="w-1/2">
+
+
+
+          <!-- component -->
+          <div>
+                <section class="text-gray-700">
+                  <div class="container px-5 mx-auto">
+
+                    <div class="flex flex-wrap sm:mx-auto sm:mb-2 -mx-2">
+                      <div class="w-full px-4 py-2">
+                        <details class="mb-4">
+                          <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                            Website Development and Design
+                          </summary>
+
+                          <span>
+                            Laboris qui labore cillum culpa in sunt quis sint veniam.
+                            Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                            minim velit nostrud pariatur culpa magna in aute.
+                          </span>
+                        </details>
+                        <details class="mb-4">
+                          <summary class="font-semibold bg-gray-200 rounded-md py-2 px-4">
+                            Homelab Setup
+                          </summary>
+
+                          <span>
+                            Laboris qui labore cillum culpa in sunt quis sint veniam.
+                            Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                            minim velit nostrud pariatur culpa magna in aute.
+                          </span>
+                        </details>
+                        <details class="mb-4">
+                          <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
+                            Other Things
+                          </summary>
+
+                          <span>
+                            Laboris qui labore cillum culpa in sunt quis sint veniam.
+                            Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
+                            minim velit nostrud pariatur culpa magna in aute.
+                          </span>
+                        </details>
+                      </div>
+
+                    </div>
+                  </div>
+                </section>
+              </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+        <div class="w-1/2">
           <div class="links">
             <a
               href="https://nuxtjs.org/"
@@ -29,10 +87,6 @@
           </div>
         </div>
       </div>
-
-
-
-
     </div>
   </div>
 </template>
@@ -50,7 +104,11 @@ export default {
 @apply min-h-screen flex justify-center items-center text-center mx-auto;
 }
 */
-.container {
+.clear-nav {
+  padding-top: 98px;
+}
+
+.container-center {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;

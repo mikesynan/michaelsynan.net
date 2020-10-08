@@ -5,7 +5,23 @@
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
 module.exports = {
-  theme: {},
+    important: true,
+    theme: {
+      fontFamily: {
+        display: ['Gilroy', 'sans-serif'],
+        body: ['Graphik', 'sans-serif'],
+      },
+      extend: {
+        colors: {
+          cyan: '#9cdbff',
+          red: "#972D07",
+        },
+        margin: {
+          '96': '24rem',
+          '128': '32rem',
+        },
+      }
+    },
   variants: {},
   plugins: [],
   purge: {

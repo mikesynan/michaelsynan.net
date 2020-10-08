@@ -3,7 +3,7 @@
     <NuxtLink
       v-if="prev"
       :to="{ name: 'blog-slug', params: { slug: prev.slug } }"
-      class="text-primary font-bold hover:underline"
+      class="text-primary font-bold hover:underline p-5"
     >
       {{ prev.title }}
     </NuxtLink>
@@ -11,7 +11,7 @@
     <NuxtLink
       v-if="next"
       :to="{ name: 'blog-slug', params: { slug: next.slug } }"
-      class="font-bold hover:underline"
+      class="font-bold hover:underline p-5"
     >
       {{ next.title }}
     </NuxtLink>
