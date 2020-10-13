@@ -1,5 +1,5 @@
 <template>
-  <div class="container max-w-lg mx-auto text-start clear-nav">
+  <div class="container max-w-lg mx-auto text-start clear-nav px-5">
   <article>
     <h1 class="py-2">{{ article.title }}</h1>
 
