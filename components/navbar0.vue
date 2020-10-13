@@ -1,6 +1,6 @@
 <template>
 <nav class="flex items-center justify-between flex-wrap bg-grey-darkest p-6 fixed w-full z-10 pin-t bg-transparent">
-  <div class="flex-1 items-center flex-no-shrink mr-6">
+  <div class="flex items-center flex-no-shrinkmr-6">
     <a class="no-underline hover:no-underline" href="#">
       <img src="~static/test.jpeg" alt="" style="max-height: 50px; display: inline-block;">
       <nuxt-link to="/"><span class="text-2xl pl-2 text-gray-800"><i class="em em-grinning"></i>Michael Synan</span></nuxt-link>
@@ -20,7 +20,7 @@
 <!--
   <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
   -->
-    <div class="w-full flex-1 lg:items-center w-auto lg:block pt-0  lg:pt-0" id="nav-content">
+    <div class="w-full flex-grow flex lg:items-center w-auto lg:block pt-6 lg:pt-0" id="nav-content">
 
     <ul class="list-reset flex justify-end items-center">
 
