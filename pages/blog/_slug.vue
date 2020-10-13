@@ -3,8 +3,8 @@
   <article>
     <h1 class="py-2">{{ article.title }}</h1>
 
-          <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
-     <img :src="article.img" style="height: auto;" class="h-20 w-full">
+          <p>Article last updated {{ formatDate(article.updatedAt) }}</p>
+     <img :src="article.img" style="height: auto;" class="w-full">
 
     <nuxt-content :document="article" class="pt-4"/>
 

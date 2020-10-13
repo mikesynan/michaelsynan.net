@@ -21,10 +21,6 @@
     <ul class="list-reset lg:flex justify-end flex-1 items-center">
 
       <li class="mr-3">
-        <nuxt-link class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4" to="/about">About</nuxt-link>
-
-      </li>
-      <li class="mr-3">
         <nuxt-link to="/posts"><button class="transition duration-100 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold py-2 px-4 border-2 border-gray-400 rounded shadow">Blog</button></nuxt-link>
 
       </li>
