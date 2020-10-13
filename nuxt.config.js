@@ -53,7 +53,24 @@ export default {
   */
   modules: [
     '@nuxtjs/pwa',
-    '@nuxt/content'
+    '@nuxt/content',
+  //OR like this
+  ['nuxt-fontawesome', {
+    component: 'fa',
+    imports: [
+      //import whole set
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas']
+      },
+      //import 2 icons from set
+      // please note this is PRO set in this example,
+      // you must have it in your node_modules to actually import
+  
+    ]
+  }]
+
+
   ],
 
   /*

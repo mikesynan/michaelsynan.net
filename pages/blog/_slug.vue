@@ -3,9 +3,9 @@
   <article>
     <h1 class="py-2">{{ article.title }}</h1>
 
-     <p>{{ article.description }}</p>
+          <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
      <img :src="article.img" style="min-height: 100px; border: 1px solid red;">
-     <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
+
     <nuxt-content :document="article" />
 
     <prev-next :prev="prev" :next="next" />

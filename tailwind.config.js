@@ -7,15 +7,22 @@
 module.exports = {
     important: true,
     theme: {
+      colors: {
+        darkcyan2: "#008b8b",
+        cyan: "#dbfcff",
+        darkcyan: "#BCCADC",
+        red: "#972D07",
+        opal: "#C5D8D1",
+        pink: "#ee6c4d",
+        blue: "#7f96ff",
+        white: "#ffffff",
+        black: "#000000"
+      },
       fontFamily: {
         display: ['Gilroy', 'sans-serif'],
         body: ['Graphik', 'sans-serif'],
       },
       extend: {
-        colors: {
-          cyan: '#9cdbff',
-          red: "#972D07",
-        },
         margin: {
           '96': '24rem',
           '128': '32rem',
