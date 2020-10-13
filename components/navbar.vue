@@ -25,11 +25,11 @@
 
       </li>
       <li class="mr-3">
-        <nuxt-link to="/posts"><button class="transition duration-150 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold py-2 px-4 border-2 border-gray-400 rounded shadow">Blog</button></nuxt-link>
+        <nuxt-link to="/posts"><button class="transition duration-100 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold py-2 px-4 border-2 border-gray-400 rounded shadow">Blog</button></nuxt-link>
 
       </li>
       <li class="mr-3">
-        <a href="/"><button class="transition duration-150 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold py-2 px-4 border-2 border-gray-400 rounded shadow">
+        <a href="/"><button class="transition duration-100 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold py-2 px-4 border-2 border-gray-400 rounded shadow">
           Contact
         </button></a>
       </li>

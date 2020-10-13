@@ -1,14 +1,14 @@
 <template>
-  <div class="container mx-auto text-start clear-nav">
+  <div class="container max-w-lg mx-auto text-start clear-nav">
   <article>
     <h1 class="py-2">{{ article.title }}</h1>
 
           <p>Article last updated: {{ formatDate(article.updatedAt) }}</p>
-     <img :src="article.img" style="min-height: 100px; border: 1px solid red;">
+     <img :src="article.img" style="height: auto;" class="h-20 w-full">
 
-    <nuxt-content :document="article" />
+    <nuxt-content :document="article" class="pt-4"/>
 
-    <prev-next :prev="prev" :next="next" />
+    <prev-next :prev="prev" :next="next" class="pt-4 pb-8"/>
   </article>
 </div>
 </template>

@@ -2,14 +2,14 @@
 <div class="container clear-nav  mx-auto px-4">
   <div>
     <div class="flex flex-wrap mb-4">
-      <div class="md:w-1/2 lg:w-1/2 sm:w-full">
+      <div class="md:w-1/2 lg:w-1/2 sm:w-full order-last lg:order-first md:order-first sm:order-last xl:order-first flex-1">
         <!-- component -->
         <div>
           <section class="text-gray-700">
             <div class="container px-5 mx-auto">
 
-              <div class="flex flex-wrap sm:mx-auto sm:mb-2">
-                <div class="w-full px-4 py-2">
+              <div class="sm:mx-auto sm:mb-2">
+                <div class="px-4 py-2">
                   <details class="mb-4">
                     <summary class="border-solid border-4 border-gray-600 font-semibold  bg-opal rounded-md py-2 px-4 shadow cursor-pointer transition duration-150 ease-in-out">
                       Website Development and Design
@@ -47,7 +47,7 @@
           </section>
         </div>
       </div>
-      <div class="lg:w-1/2 md:w-1/2 sm:w-full order-1 px-2">
+      <div class="lg:w-1/2 md:w-1/2 sm:w-full px-2">
         <div>
           <div class="text-2xl pb-4">
             Welcome to my website, please feel free to check out my blog and other things.
