@@ -1,9 +1,9 @@
 <template>
 <nav class="flex items-center justify-between flex-wrap bg-grey-darkest p-6 fixed w-full z-10 pin-t bg-transparent">
-  <div class="flex-1 items-center flex-no-shrink mr-6">
+  <div class="flex-1 items-center flex-no-shrink lg:mr-6 md:mr-6 mr-0 sm:mr-0">
     <a class="no-underline hover:no-underline" href="#">
       <img src="~static/test.jpeg" alt="" style="max-height: 50px; display: inline-block;">
-      <nuxt-link to="/"><span class="text-2xl pl-2 text-gray-800"><i class="em em-grinning"></i>Michael Synan</span></nuxt-link>
+      <nuxt-link to="/"><span class="lg:text-2xl xl:text-2xl md:text-xl sm:text-sm text-base pl-2 text-gray-800"><i class="em em-grinning"></i>Michael Synan</span></nuxt-link>
 
     </a>
   </div>
@@ -20,15 +20,15 @@
 <!--
   <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
   -->
-    <div class="w-full flex-1 lg:items-center w-auto lg:block pt-0  lg:pt-0" id="nav-content">
+    <div class="w-full flex-1 justify-end items-end w-auto lg:block pt-0 lg:pt-0" id="nav-content">
 
-    <ul class="list-reset flex justify-end items-center">
+    <ul class="list-reset flex justify-end items-end">
 
       <li class="mr-3">
         <nuxt-link to="/posts"><button class="transition duration-100 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold py-2 px-4 border-2 border-gray-400 rounded shadow">Blog</button></nuxt-link>
 
       </li>
-      <li class="mr-3">
+      <li>
         <a href="/"><button class="transition duration-100 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold py-2 px-4 border-2 border-gray-400 rounded shadow">
           Contact
         </button></a>
