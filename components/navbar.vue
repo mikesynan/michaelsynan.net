@@ -3,8 +3,7 @@
   <div class="flex-1 items-center flex-no-shrink lg:mr-6 md:mr-6 mr-0 sm:mr-0">
     <a class="no-underline hover:no-underline" href="#">
       <img src="~static/test.jpeg" alt="" style="max-height: 50px; display: inline-block;">
-      <nuxt-link to="/"><span class="lg:text-2xl xl:text-2xl md:text-xl sm:text-sm text-base pl-2 text-gray-800"><i class="em em-grinning"></i>Michael Synan</span></nuxt-link>
-
+      <nuxt-link to="/"><span class="lg:text-2xl xl:text-2xl md:text-xl sm:text-base text-base pl-2 text-gray-800"><i class="em em-grinning"></i>Michael Synan</span></nuxt-link>
     </a>
   </div>
 <!--
@@ -21,15 +20,17 @@
   <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
   -->
     <div class="w-full flex-1 justify-end items-end w-auto lg:block pt-0 lg:pt-0" id="nav-content">
-
     <ul class="list-reset flex justify-end items-end">
-
       <li class="mr-3">
-        <nuxt-link to="/posts"><button class="transition duration-100 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold py-2 px-4 border-2 border-gray-400 rounded shadow">Blog</button></nuxt-link>
-
+        <nuxt-link to="/posts">
+          <button class="transition duration-100 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold sm:py-1 sm:px-2 py-1 px-2 lg:py-2 lg:px-4 md:py-2 md:px-4 xl:py-2 xl:px-4 border-2 border-gray-400 rounded shadow">
+            Blog
+          </button>
+        </nuxt-link>
       </li>
       <li>
-        <a href="/"><button class="transition duration-100 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold py-2 px-4 border-2 border-gray-400 rounded shadow">
+        <a href="/">
+          <button class="transition duration-100 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold sm:py-1 sm:px-2 py-1 px-2 lg:py-2 lg:px-4 md:py-2 md:px-4 xl:py-2 xl:px-4 border-2 border-gray-400 rounded shadow">
           Contact
         </button></a>
       </li>
