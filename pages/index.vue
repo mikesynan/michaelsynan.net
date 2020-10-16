@@ -74,6 +74,16 @@
    import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 
    export default {
+     head: {
+       title: 'My cool home page',
+       meta: [
+         {
+           hid: 'description',
+           name: 'description',
+           content: 'my cool home page content'
+         }
+       ],
+     },
      computed: {
        fas () {
           return fas
