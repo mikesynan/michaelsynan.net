@@ -23,7 +23,7 @@
           rel="noopener noreferrer"
           class="button--grey"
         >
-          Website Design 
+          Website Design
         </a>
       </div>
     </div>
@@ -32,7 +32,16 @@
 
 <script>
 export default {
-
+  head: {
+    title: 'About page',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'About page description'
+      }
+    ],
+  }
 }
 </script>
 

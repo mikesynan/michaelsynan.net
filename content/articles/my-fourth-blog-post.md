@@ -1,7 +1,7 @@
 ---
 title: My fourth Blog Post
 description: happy birthday boo boo
-img: https://picsum.photos/200/300
+img: /first-blog-post.jpg
 alt: my third blog post
 ---
 

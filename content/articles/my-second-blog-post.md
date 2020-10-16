@@ -1,7 +1,7 @@
 ---
 title: My Second Blog Post
 description: Learning how to use @nuxt/content to create a blog bloop
-img: https://picsum.photos/200/300
+img: /first-blog-post.jpg
 alt: my second blog post
 ---
 
