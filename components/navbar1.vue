@@ -1,6 +1,6 @@
 <template>
-
-  <nav class="max-w-6xl mx-auto flex items-center justify-between flex-wrap p-4">
+<div class="flex w-full  ">
+  <nav class="w-full flex mx-auto bg-grey-darkest fixed z-10 pin-t bg-transparent items-baseline justify-between p-6 items-center">
     <div class="flex-1 inline-flex lg:mr-6 md:mr-6 mr-0 sm:mr-0">
       <a class="no-underline hover:no-underline" href="#">
         <img src="~static/test.jpeg" alt="" style="max-height: 50px; display: inline-block;">
@@ -38,7 +38,7 @@
       </ul>
     </div>
   </nav>
-
+</div>
 </template>
 
 <script>
