@@ -1,5 +1,5 @@
 <template>
-  <div class="clear-navbar">
+  <div class="">
   <div class="text-left container mx-auto px-2 py-2 max-w-4xl">
 
     <ul class="text-left">

@@ -1,6 +1,6 @@
 <template>
 
-  <nav class="max-w-6xl mx-auto flex items-center justify-between flex-wrap p-4">
+  <nav class="max-w-6xl mx-auto flex items-center justify-between flex-wrap p-4 sticky top-0">
     <div class="flex-1 inline-flex lg:mr-6 md:mr-6 mr-0 sm:mr-0">
       <a class="no-underline hover:no-underline" href="#">
         <img src="~static/test.jpeg" alt="" style="max-height: 50px; display: inline-block;">

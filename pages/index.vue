@@ -1,5 +1,5 @@
 <template>
-<div class="container clear-nav  mx-auto px-4">
+<div class="container mx-auto px-4">
   <div>
     <div class="flex flex-wrap mb-4">
       <div class="md:px-10 lg:px-10 xl:px-10 md:w-1/2 lg:w-1/2 sm:w-full order-last lg:order-first md:order-first sm:order-last xl:order-first flex-1">
