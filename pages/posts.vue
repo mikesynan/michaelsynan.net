@@ -1,6 +1,6 @@
 <template>
   <div class="">
-  <div class="text-left container mx-auto px-2 py-2 max-w-4xl">
+  <div class="text-left container mx-auto px-2 py-2 max-w-4xl mt-4">
 
     <ul class="text-left">
       <li v-for="article of articles" :key="article.slug">

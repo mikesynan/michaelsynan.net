@@ -1,7 +1,7 @@
 <template>
 <div class="container mx-auto px-4">
   <div>
-    <div class="flex flex-wrap mb-4">
+    <div class="flex flex-wrap mb-2 mt-4">
       <div class="md:px-10 lg:px-10 xl:px-10 md:w-1/2 lg:w-1/2 sm:w-full order-last lg:order-first md:order-first sm:order-last xl:order-first flex-1">
         <!-- component -->
         <div>
@@ -28,7 +28,7 @@
                       and make it look the way I wanted. That led me to Ubuntu 12.04, since then I've expanded out to Linux Mint and then Manjaro.
                     </div>
                   </details>
-                  <details class="mb-4">
+                  <details class="mb-2">
                     <summary class="border-solid border-4 border-gray-600 font-semibold  bg-opal rounded-md py-2 px-4 shadow cursor-pointer transition duration-150 ease-in-out">
                       This Website
                     </summary>

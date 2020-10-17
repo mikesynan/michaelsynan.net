@@ -9,16 +9,16 @@
       <ul class="list-reset inline-flex">
         <li class="mr-3">
           <nuxt-link to="/posts">
-            <button class="transition duration-100 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold sm:py-1 sm:px-2 py-1 px-2 lg:py-2 lg:px-4 md:py-2 md:px-4 xl:py-2 xl:px-4 border-2 border-gray-400 rounded shadow">
+            <button class="transition duration-100 ease-in-out bg-opal hover:bg-white hover:shadow-md text-gray-800 font-semibold sm:py-1 sm:px-2 py-1 px-2 lg:py-2 lg:px-4 md:py-2 md:px-4 xl:py-2 xl:px-4 border-2 border-gray-400 rounded shadow">
               Blog
             </button>
           </nuxt-link>
         </li>
         <li>
-          <a href="/">
-            <button class="transition duration-100 ease-in-out bg-opal hover:bg-white text-gray-800 font-semibold sm:py-1 sm:px-2 py-1 px-2 lg:py-2 lg:px-4 md:py-2 md:px-4 xl:py-2 xl:px-4 border-2 border-gray-400 rounded shadow">
+          <nuxt-link to="/contact">
+            <button class="transition duration-100 ease-in-out bg-opal hover:bg-white hover:shadow-md text-gray-800 font-semibold sm:py-1 sm:px-2 py-1 px-2 lg:py-2 lg:px-4 md:py-2 md:px-4 xl:py-2 xl:px-4 border-2 border-gray-400 rounded shadow">
               Contact
-            </button></a>
+            </button></nuxt-link>
         </li>
       </ul>
     </div>
