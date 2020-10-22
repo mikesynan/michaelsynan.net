@@ -5,15 +5,15 @@
 
   <h2 class="font-semibold py-2">Say hi, but not here. This page is under construction.</h2>
 <div class="p-2">
-  <form class="" action="index.html" method="post"  data-netlify="true" style="visibility: hidden;">
+  <form class="" action="index.html" method="post"  style="visibility: hidden;" netlify>
     <input type="text" name="firstname" value="">
-    <input type="text" name="Last Name" value="">
-    <input type="email" name="Email" value="">
-    <input type="tel" name="Phone" value="">
-    <input type="textarea" name="Message" value="">
+    <input type="text" name="lastnameame" value="">
+    <input type="email" name="email" value="">
+    <input type="tel" name="phone" value="">
+    <input type="textarea" name="message" value="">
   </form>
-  <FormulateForm @submit="submitHandler"
-  name="My Cool Form">
+  <FormulateForm @submit="submitHandler">
+  <input type="hidden" name="my-cool-form" value="contact" />
 <FormulateInput
   type="text"
   name="firstname"
