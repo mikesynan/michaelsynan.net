@@ -12,7 +12,8 @@
     <input type="tel" name="Phone" value="">
     <input type="textarea" name="Message" value="">
   </form>
-  <FormulateForm @submit="submitHandler">
+  <FormulateForm @submit="submitHandler"
+  name="My Cool Form">
 <FormulateInput
   type="text"
   name="firstname"
@@ -26,7 +27,7 @@
 
 <FormulateInput
   type="text"
-  name="Last Name"
+  name="lastname"
   label="Last Name"
   placeholder="Makhno"
   validation="required"
@@ -37,7 +38,7 @@
 
 <FormulateInput
   type="email"
-  name="Email"
+  name="email"
   label="Email"
   placeholder="coolemail@email.com"
   validation="required|email"
@@ -48,7 +49,7 @@
 
 <FormulateInput
   type="tel"
-  name="Phone"
+  name="phone"
   label="Phone"
   placeholder="Sample tel placeholder"
   validation="required"
@@ -58,7 +59,7 @@
 
 <FormulateInput
   type="textarea"
-  name="Message"
+  name="message"
   label="Your message to me"
   help="Enter some text, maybe about turtles"
   input-class="custom-input"
@@ -83,12 +84,21 @@ export default {
       submitHandler (data) {
         alert(`Thank you, ${data.firstname}`)
       }
+    },
+    data () {
+  return {
+    formValues: {
+      firstname: 'Jenny',
+      lastname: 'Taylor',
+      email: 'test@gmail.com',
+      phone: '333-333-3333',
+      message: 'its a message'
     }
+  }
+}
 }
 
-
 </script>
-
 <style>
 .custom-input {background-color: white !important; border: 2px solid black !important;}
 .custom-element-class {width: 100% !important;}
