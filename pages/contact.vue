@@ -3,7 +3,7 @@
 <div class="py-2 px-2 container mx-auto">
   <div class=" px-4 py-2 my-4 max-w-xl bg-opal rounded shadow border-solid border-4 mx-auto">
 
-  <h2 class="font-semibold py-2">Is this form working?</h2>
+  <h2 class="font-semibold py-2">Is this form working 2?</h2>
 <div class="p-2">
   <form class="" action="index.html" method="post"  style="visibility: hidden;" name="my-cool-form" netlify>
     <input type="text" name="firstname" value="">
@@ -86,17 +86,12 @@ export default {
       }
     },
     data () {
-  return {
-    formValues: {
-      firstname: 'Jenny',
-      lastname: 'Taylor',
-      email: 'test@gmail.com',
-      phone: '333-333-3333',
-      message: 'its a message'
-    }
+         return {
+           formData: {}
+         }
   }
 }
-}
+
 
 </script>
 <style>
