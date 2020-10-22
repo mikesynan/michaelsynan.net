@@ -1,14 +1,16 @@
 <template>
   <div class="container max-w-lg mx-auto text-start px-5">
   <article>
-    <h1 class="py-2">{{ article.title }}</h1>
+    <h1 class="py-0">{{ article.title }}</h1>
 
-          <p>Article last updated {{ formatDate(article.updatedAt) }}</p>
+          <p class="pb-1">Article last updated {{ formatDate(article.updatedAt) }}</p>
+<div class="thingthing py-4 pt-4 pb-2 mb-4 rounded bg-white shadow">
      <img :src="article.img" style="height: auto;" class="w-full">
 
-    <nuxt-content :document="article" class="pt-4"/>
+    <nuxt-content :document="article" class="px-4 pt-2"/>
 
-    <prev-next :prev="prev" :next="next" class="pt-4 pb-8"/>
+    <prev-next :prev="prev" :next="next" class="pt-4 pb-2 px-4"/>
+  </div>
   </article>
 </div>
 </template>
@@ -46,5 +48,5 @@
 </script>
 
 <style>
-
+.thingthing {border: 2px solid black !important;}
 </style>

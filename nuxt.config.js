@@ -15,6 +15,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-head
   */
   head: {
+    pageTransition: 'page',
     title: "Michael Synan Homepage",
     meta: [
       { charset: 'utf-8' },

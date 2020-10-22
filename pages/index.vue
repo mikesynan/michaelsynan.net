@@ -10,7 +10,7 @@
               <div class="sm:mx-auto sm:mb-2">
                 <div class="py-2">
                   <details class="mb-4">
-                    <summary class="border-solid border-4 border-gray-600 font-semibold  bg-opal rounded-md py-2 px-4 shadow cursor-pointer transition duration-150 ease-in-out">
+                    <summary class="hover:bg-darkcyan2 hover:shadow hover:border-black hover:text-white border-solid border-4 border-gray-600 font-semibold  bg-opal rounded-md py-2 px-4 shadow cursor-pointer transition duration-150 ease-in-out">
                       Website Development and Design
                     </summary>
                     <div class="p-2 opacity-0 transition duration-200 ease-in-out bg-white  border-solid border-2 border-gray-600 mt-2 shadow">
@@ -19,7 +19,7 @@
                     </div>
                   </details>
                   <details class="mb-4">
-                    <summary class="border-solid border-4 border-gray-600 font-semibold bg-opal rounded-md py-2 px-4 shadow cursor-pointer transition duration-150 ease-in-out">
+                    <summary class="hover:bg-darkcyan2 hover:shadow hover:border-black hover:text-white border-solid border-4 border-gray-600 font-semibold bg-opal rounded-md py-2 px-4 shadow cursor-pointer transition duration-150 ease-in-out">
                       Homelab Setup
                     </summary>
                     <div class="p-2  opacity-0 transition duration-200 ease-in-out bg-white  border-solid border-2 border-gray-600 mt-2 shadow">
@@ -29,7 +29,7 @@
                     </div>
                   </details>
                   <details class="mb-2">
-                    <summary class="border-solid border-4 border-gray-600 font-semibold  bg-opal rounded-md py-2 px-4 shadow cursor-pointer transition duration-150 ease-in-out">
+                    <summary class="hover:bg-darkcyan2 hover:shadow hover:border-black hover:text-white border-solid border-4 border-gray-600 font-semibold  bg-opal rounded-md py-2 px-4 shadow cursor-pointer transition duration-150 ease-in-out">
                       This Website
                     </summary>
                     <div class="p-2 opacity-0 transition duration-200 ease-in-out bg-white  border-solid border-2 border-gray-600 mt-2 shadow">
