@@ -3,9 +3,9 @@
 <div class="py-2 px-2 container mx-auto">
   <div class=" px-4 py-2 my-4 max-w-xl bg-opal rounded shadow border-solid border-4 mx-auto">
 
-  <h2 class="font-semibold py-2">Say hi, but not here. This page is under construction.</h2>
+  <h2 class="font-semibold py-2">Is this form working?</h2>
 <div class="p-2">
-  <form class="" action="index.html" method="post"  style="visibility: hidden;" netlify>
+  <form class="" action="index.html" method="post"  style="visibility: hidden;" name="my-cool-form" netlify>
     <input type="text" name="firstname" value="">
     <input type="text" name="lastnameame" value="">
     <input type="email" name="email" value="">
@@ -13,7 +13,7 @@
     <input type="textarea" name="message" value="">
   </form>
   <FormulateForm @submit="submitHandler">
-  <input type="hidden" name="my-cool-form" value="contact" />
+
 <FormulateInput
   type="text"
   name="firstname"
