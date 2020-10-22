@@ -5,7 +5,13 @@
 
   <h2 class="font-semibold py-2">Say hi, but not here. This page is under construction.</h2>
 <div class="p-2">
-  <form data-netlify="true">
+  <form class="" action="index.html" method="post"  data-netlify="true" style="visibility: hidden;">
+    <input type="text" name="First Name" value="">
+    <input type="text" name="Last Name" value="">
+    <input type="email" name="Email" value="">
+    <input type="tel" name="Phone" value="">
+    <input type="textarea" name="Message" value="">
+  </form>
 <FormulateInput
   type="text"
   name="First Name"
@@ -41,7 +47,7 @@
 
 <FormulateInput
   type="tel"
-  name="phone"
+  name="Phone"
   label="Phone"
   placeholder="Sample tel placeholder"
   validation="required"
@@ -51,6 +57,7 @@
 
 <FormulateInput
   type="textarea"
+  name="Message"
   label="Your message to me"
   help="Enter some text, maybe about turtles"
   input-class="custom-input"
@@ -65,7 +72,6 @@
     name="Submit this form!"
   />
 </FormulateForm>
-</form>
 </div>
 </div>
 </div>
