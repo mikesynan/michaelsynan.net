@@ -5,6 +5,7 @@
 
   <h2 class="font-semibold py-2">Say hi, but not here. This page is under construction.</h2>
 <div class="p-2">
+  <form data-netlify="true">
 <FormulateInput
   type="text"
   name="First Name"
@@ -64,6 +65,7 @@
     name="Submit this form!"
   />
 </FormulateForm>
+</form>
 </div>
 </div>
 </div>
