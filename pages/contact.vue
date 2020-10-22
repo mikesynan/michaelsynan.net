@@ -6,7 +6,7 @@
   <h2 class="font-semibold py-2">Say hi, but not here. This page is under construction.</h2>
 <div class="p-2">
   <form class="" action="index.html" method="post"  data-netlify="true" style="visibility: hidden;">
-    <input type="text" name="First Name" value="">
+    <input type="text" name="firstname" value="">
     <input type="text" name="Last Name" value="">
     <input type="email" name="Email" value="">
     <input type="tel" name="Phone" value="">
@@ -15,7 +15,7 @@
   <FormulateForm @submit="submitHandler">
 <FormulateInput
   type="text"
-  name="First Name"
+  name="firstname"
   label="First Name"
   placeholder="Nestor"
   validation="required"
@@ -77,6 +77,14 @@
 
 <script>
 
+
+export default {
+  methods: {
+      submitHandler (data) {
+        alert(`Thank you, ${data.firstname}`)
+      }
+    }
+}
 
 
 </script>
