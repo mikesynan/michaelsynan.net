@@ -12,6 +12,7 @@
     <input type="tel" name="Phone" value="">
     <input type="textarea" name="Message" value="">
   </form>
+  <FormulateForm @submit="submitHandler">
 <FormulateInput
   type="text"
   name="First Name"
@@ -64,9 +65,6 @@
   element-class="custom-element-class"
 />
 
-<FormulateForm
-  @submit="showAlert"
->
   <FormulateInput
     type="submit"
     name="Submit this form!"
@@ -78,6 +76,8 @@
 </template>
 
 <script>
+
+
 
 </script>
 
