@@ -14,26 +14,23 @@
                       Website Development and Design
                     </summary>
                     <div class="p-2 opacity-0 transition duration-200 ease-in-out bg-white  border-solid border-2 border-gray-600 mt-2 shadow">
-                      I do website design and development. Mostly interested in Vue,
-                      but happy building on WordPress or without a framework.
+                      <span>I do website design and development. Mostly interested in the Javascript framework Vue. Feel free to get in touch if you need something built.</span>
                     </div>
                   </details>
                   <details class="mb-4">
                     <summary class="hover:bg-darkcyan2 hover:shadow hover:border-black hover:text-white border-solid border-4 border-gray-600 font-semibold bg-opal rounded-md py-2 px-4 shadow cursor-pointer transition duration-150 ease-in-out">
-                      Homelab Setup
+                      Homelab and Linux
                     </summary>
                     <div class="p-2  opacity-0 transition duration-200 ease-in-out bg-white  border-solid border-2 border-gray-600 mt-2 shadow">
-                      I first got into Linux in the early 2000's in response to privacy concerns about Microsoft Windows and the restrictions
-                      they place on software. I wanted to be able to confirm that my Operating System wasn't spying on me, control what it's doing
-                      and make it look the way I wanted. That led me to Ubuntu 12.04, since then I've expanded out to Linux Mint and then Manjaro.
+                      <span>I'm really into buildling stuff on Linux and running my own instances of open source software. Two platforms that I'm currently using are <a href="https://www.plex.tv/">Plex</a> for streaming media and <a href="https://nextcloud.com/">Nextcloud</a> for online cloud services.</span>
                     </div>
                   </details>
                   <details class="mb-2">
                     <summary class="hover:bg-darkcyan2 hover:shadow hover:border-black hover:text-white border-solid border-4 border-gray-600 font-semibold  bg-opal rounded-md py-2 px-4 shadow cursor-pointer transition duration-150 ease-in-out">
-                      This Website
+                      About This Website
                     </summary>
                     <div class="p-2 opacity-0 transition duration-200 ease-in-out bg-white  border-solid border-2 border-gray-600 mt-2 shadow">
-                      Built with Nuxt and Tailwind CSS, deployed via Github on Netlify.
+                      <span>Built with <a href="https://nuxtjs.org/">Nuxt</a> and <a href="https://tailwindcss.com/">Tailwind CSS</a>, using <a href="https://vueformulate.com/">Vue Formulate</a> for the contact page and <a href="https://content.nuxtjs.org/">Content</a> for the blog. Deployed via Github on <a href="https://www.netlify.com/">Netlify</a>.</span>
                     </div>
                   </details>
                 </div>

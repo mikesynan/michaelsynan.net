@@ -3,7 +3,7 @@
     <div class="flex-1 inline-flex lg:mr-6 md:mr-6 mr-0 sm:mr-0">
     <nuxt-link to="/">
         <img src="~static/test.jpeg" alt="" style="max-height: 50px; display: inline-block;">
-        <span class="lg:text-2xl xl:text-2xl md:text-xl sm:text-lg text-lg pl-2 text-gray-800"><i class="em em-grinning"></i>Michael Synan</span></nuxt-link>
+        <span class="lg:text-2xl xl:text-2xl md:text-xl sm:text-lg text-lg pl-2 text-gray-800 font-medium"><i class="em em-grinning"></i>Michael Synan</span></nuxt-link>
     </div>
     <div class="flex-end inline-flex pt-0 lg:pt-0 mx-auto" id="nav-content">
       <ul class="list-reset inline-flex">

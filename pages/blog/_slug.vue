@@ -1,7 +1,7 @@
 <template>
   <div class="container max-w-lg mx-auto text-start px-5">
   <article>
-    <h1 class="py-0">{{ article.title }}</h1>
+    <h1 class="py-0 font-medium">{{ article.title }}</h1>
 
           <p class="pb-1">Article last updated {{ formatDate(article.updatedAt) }}</p>
 <div class="thingthing py-4 pt-4 pb-2 mb-4 rounded bg-white shadow">

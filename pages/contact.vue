@@ -1,7 +1,7 @@
 <template>
 <div class="py-2 px-2 container mx-auto">
   <div class=" px-4 py-2 my-4 max-w-xl bg-opal rounded shadow border-solid border-4 mx-auto">
-    <h2 class="font-semibold py-2">Get In Touch</h2>
+    <h1 class="font-semibold py-2">Get In Touch</h1>
     <div class="p-2">
 
 <!--
@@ -53,7 +53,9 @@ export default {
   background-color: white !important;
   border: 2px solid black !important;
 }
-
+.custom-input:focus {
+  border: 2px solid #008b8b !important;
+}
 .custom-element-class {
   width: 100% !important;
 }
