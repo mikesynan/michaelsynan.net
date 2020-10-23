@@ -14,7 +14,7 @@
       </form>
 -->
 
-      <FormulateForm @submit="submitHandler" name="MY-FORM"  action="/thank-you" netlify>
+      <FormulateForm @submit="submitHandler" name="MY-FORM" netlify>
 
         <FormulateInput type="text" name="firstname" label="First Name" placeholder="Nestor" validation="required" error-behavior="live" input-class="custom-input" element-class="custom-element-class" />
 

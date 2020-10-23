@@ -1,11 +1,11 @@
 ---
-title: My Second Blog Post
-description: Learning how to use @nuxt/content to create a blog bloop
+title: Programming
+description: Building this website with Nuxt and Netlify.
 img: /first-blog-post.jpg
-alt: my second blog post
+alt: my third blog post
 ---
 
-Fleet week
+***this is a bold thing***
 Welcome to my first blog post using content module
 Welcome to my first blog post using content module
 Welcome to my first blog post using content module
