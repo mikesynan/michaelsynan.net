@@ -1,7 +1,7 @@
 <template>
 <div class="py-2 px-2 container mx-auto">
   <div class=" px-4 py-2 my-4 max-w-xl bg-opal rounded shadow border-solid border-4 mx-auto">
-    <h2 class="font-semibold py-2">Is this form working 2?</h2>
+    <h2 class="font-semibold py-2">Get In Touch</h2>
     <div class="p-2">
 
 <!--
@@ -14,7 +14,7 @@
       </form>
 -->
 
-      <FormulateForm @submit="submitHandler" name="MY-FORM" netlify>
+      <FormulateForm @submit="submitHandler" name="MY-FORM"  action="/thank-you" netlify>
 
         <FormulateInput type="text" name="firstname" label="First Name" placeholder="Nestor" validation="required" error-behavior="live" input-class="custom-input" element-class="custom-element-class" />
 
