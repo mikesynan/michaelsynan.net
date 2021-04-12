@@ -6,7 +6,7 @@
       About Michael
       </h1>
       <div class="">
-        Web devloper and linux enthusiast.
+        Web devloper and linux enthusiast. Reads too much non-fiction.
       </div>
       <div class="links">
         <a
